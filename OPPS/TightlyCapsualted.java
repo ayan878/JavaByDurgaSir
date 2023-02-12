@@ -19,4 +19,4 @@ class C extends B {
 private int z=30; //not
 }
 //Note: if the parent class is not tightly encapsulated then no child class is tightly
-//encapsulated.
+//encapsulated. it  has been done
