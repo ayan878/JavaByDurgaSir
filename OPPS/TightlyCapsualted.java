@@ -1,22 +1,26 @@
+class ayan {
 
+	private int age; // Private is using to hide the data
 
-class Account 
-{
-    
-private double balance;
-public double getBalance() {
-return balance;
-}
+	public int getAge(){
+         return age; 
+         } // getter
+
+	public void setAge(int age)
+	{
+		this.age = age;
+	} // setter
 }
 
-class A {
-int x=10; //not
+class TightlyCapsualted {
+	public static void main(String[] args)
+	{
+
+		Name n1 = new Name();
+
+		n1.setAge(19);
+
+		System.out.println("The age of the person is: "
+						+ n1.getAge());
+	}
 }
-class B extends A {
-private int y=20; //not
-}
-class C extends B {
-private int z=30; //not
-}
-//Note: if the parent class is not tightly encapsulated then no child class is tightly
-//encapsulated. it  has been done
