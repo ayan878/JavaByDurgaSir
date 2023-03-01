@@ -16,6 +16,10 @@ class Inheritance{
         Child ch1=new Child();
         ch1.methodOne();  //We can call Parent class with child class object
         //p1.methodTwo(); WE cant call Child class with parent class object
+       // Child ch1=new Parent();
+       Parent ch2=new Child();
+       ch2.methodOne();
+       // Child refrence ch1 can call both child class and parent class
 
     }
 }
