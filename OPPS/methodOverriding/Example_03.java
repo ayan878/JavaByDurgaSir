@@ -1,4 +1,4 @@
-package methodOverloading;
+package methodOverriding;
 
 class Parent{
 	private void methodOne() {
