@@ -1,3 +1,4 @@
+package OOPS;
 class ayan {
 
 	private int age; // Private is using to hide the data
