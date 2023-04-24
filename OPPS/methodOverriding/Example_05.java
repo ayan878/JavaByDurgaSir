@@ -1,7 +1,6 @@
 package methodOverriding;
 
-//We should override Parent class abstract methods in Child classes to provide
-//implementation.
+//We should override Parent class abstract methods in Child classes to provide implementation.
 
 abstract class parent{
 	public abstract void methodOne(); 	

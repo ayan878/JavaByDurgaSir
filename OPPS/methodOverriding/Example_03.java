@@ -1,10 +1,10 @@
 package methodOverriding;
 
-class Parent{
+class Parent1{
 	private void methodOne() {
 	}
 }
-class Child extends Parent {
+class Child1 extends Parent1 {
 	private void methodOne() {
 	}		
 }
@@ -17,3 +17,4 @@ System.out.println("Overring Concept not applicable for private methods");
 // program is not getting error but overriding concept not perform bcz of private method
 	}
 }
+ 
