@@ -18,7 +18,7 @@ class Child extends Parent{
 		//overriding method
 	}
 }
-public class Example {
+public class Example_01 {
 	public static void main(String[] args){
 		Parent p=new Parent();
 		p.marry();//subbalakshmi(parent method)
