@@ -18,7 +18,7 @@ public class Case_06{
 		Monkey m=new Monkey();
 		t.methodOne(m);//Monkey version
 		Animal a1=new Monkey(); 
-		t.methodOne(a1);//Animal version In overloading method resolution is always based on reference type and 
+		t.methodOne(a1);//Animal version (In overloading method resolution is always based on reference type and 
 						//	runtime object won't play any role in overloading. 
 	}
-}
+} 

@@ -2,6 +2,7 @@ package methodOverriding;
 
 //co-variant: Child return type need not be same as Parent return type and it is only applicable for object types but for primitives type
 //return type must be same or child but parent like Object->String,Stringbuffer and Number->int,float,long,double while overriding method 
+// if return types is primitives than it must be same in parent and child both
 public class Example_02 {
 
 	public static void main(String[] args) {
