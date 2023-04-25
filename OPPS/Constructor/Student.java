@@ -13,5 +13,6 @@ public static void main(String[] args)
 {
 Student s1=new Student("vijayabhaskar",101);
 Student s2=new Student("bhaskar",102);
+System.out.println(s1.name +" "+ s1.rollno);
 }
 }
