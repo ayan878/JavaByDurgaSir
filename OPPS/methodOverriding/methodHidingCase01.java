@@ -1,6 +1,7 @@
 package methodOverriding;
 
 // Case 01:
+// both method are not static than resolution is take care by jvm based on runtime object. but it can't override it get CE bcz we cant override static method to non-static method
 public class methodHidingCase01 {
 
 	public static void main(String[] args) {
