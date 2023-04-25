@@ -8,7 +8,7 @@ class parent6{
 class child6 extends parent6{
 
 	public void methodOne(int...i) {
-		System.out.println("Child Overring");
+		System.out.println("Child");
 	}
 }
 public class methodOverridingVar_arg2 {
@@ -21,9 +21,9 @@ public class methodOverridingVar_arg2 {
 		c.methodOne(10); // Child
 		parent6 pc = new child6();
 	
-		pc.methodOne(10); // Child overloading (here pc calling the parent methodOne by child class object so it is overriding)
+		pc.methodOne(10); // Child (here pc calling the parent methodOne by child class object so it is overriding)
 
 	}
 
 }
-
+// Note: we can only override var-arg method to var-arg method
